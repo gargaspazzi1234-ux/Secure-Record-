@@ -1,0 +1,33 @@
+# SecureRecord: A Secure Record Keeping System on Hedera
+
+## Project Description
+SecureRecord is a decentralized record-keeping system built on Hedera that allows individuals and organizations to securely store and verify important documents. Many people lose critical records such as certificates, medical records, land documents, and identity papers. Some documents are tampered with or difficult to verify.
+
+SecureRecord solves this by using Hedera’s blockchain to store a digital fingerprint (hash) of each document, making it tamper-proof. Records can be verified anytime without risk of alteration, improving transparency, security, and trust.
+
+## Problem
+- People often lose or misplace important records.
+- Documents can be altered or tampered with.
+- Verification of records is slow and unreliable.
+
+## Solution
+- Upload your document to SecureRecord.
+- The system generates a unique hash for each document.
+- Hash is stored on Hedera blockchain (decentralized).
+- Anyone can verify the document by comparing hashes.
+
+## How It Works
+1. User uploads a document.
+2. SecureRecord generates a **hash** of the document.
+3. Hash is stored on **Hedera network**.
+4. Verification is done by comparing document hash with blockchain hash.
+
+## Flowchart
+![SecureRecord Flowchart](SecureRecord_Flowchart.png)
+
+## Built For
+Hedera Hello Future Apex Hackathon 2026 — Open Track
+
+## Demo / Repo
+- GitHub Repo: `[paste your repo link here]`
+- Demo Video: `[paste your YouTube unlisted video link here]`
